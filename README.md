@@ -26,14 +26,14 @@ Set the following project configurations:
 - Language: Java
 - Spring Boot: Select the latest stable version
 - Group: com.example (or your preferred group name)
-- Artifact: role-based-auth-system
-- Name: RoleBasedAuthSystem
-- Package Name: com.example.rolebasedauthsystem
+- Artifact: projectname
+- Name: projectname
+- Package Name: com.example.projectname
 - Packaging: Jar
 - Java Version: 8 or later
 - In the Dependencies section, add the following:
 
-Spring Web: For building RESTful APIs.
+- Spring Web: For building RESTful APIs.
 - Spring Data JPA: For database interactions using JPA.
 - MySQL Driver: For connecting to a MySQL database.
 - Spring Security: For authentication and authorization.
