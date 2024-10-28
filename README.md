@@ -31,7 +31,8 @@ Set the following project configurations:
 - Package Name: com.example.projectname
 - Packaging: Jar
 - Java Version: 8 or later
-- In the Dependencies section, add the following:
+- 
+### In the Dependencies section, add the following:
 
 - Spring Web: For building RESTful APIs.
 - Spring Data JPA: For database interactions using JPA.
@@ -58,7 +59,7 @@ mysql -u root -p
 Create a new database for the project:
 ```
 sql
-CREATE DATABASE role_based_auth_system;
+CREATE DATABASE DATABASE_NAME;
 ```
 Update application.properties with Database Details:
 
@@ -68,7 +69,7 @@ Configure your MySQL database connection details as shown below:
 ```
 properties
 # Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/databasename
+spring.datasource.url=jdbc:mysql://localhost:3306/database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
