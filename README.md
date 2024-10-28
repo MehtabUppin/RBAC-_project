@@ -15,7 +15,10 @@ This project is a full-stack application that implements role-based authenticati
 - Maven.
 ## Backend Setup (Spring Boot)
 Step 1: Clone the Repository and Navigate to Backend Directory
-Start by cloning the repository to your local machine and navigate to the backend folder (e.g., named OJT).
+Start by cloning the repository to your local machine and navigate to the backend folder.
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name/ojt
+
 
   
 
