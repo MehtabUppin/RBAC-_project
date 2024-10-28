@@ -47,9 +47,7 @@ spring.jpa.show-sql=true
 - Add a secret key for JWT (JSON Web Token) authentication to the application.properties file:
 ```
 properties
-Copy code
 jwt.secret=your_jwt_secret_key
-
 ```
 
 
