@@ -15,7 +15,7 @@ This project is a full-stack application that implements role-based authenticati
 - Maven: Maven is used to manage dependencies. Download and install it from Maven’s official website.
 ## Backend Setup (Spring Boot)
 
-Step 1: Create a New Spring Boot Project
+# Step 1: Create a New Spring Boot Project
 Using Spring Initializr:
 
 Go to Spring Initializr.
@@ -44,7 +44,8 @@ Spring Web: For building RESTful APIs.
 
 - If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
 - Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
-Step 3: Configure Database in application.properties
+  
+# Step 2: Configure Database in application.properties
 Create a MySQL Database:
 
 Log into your MySQL server:
