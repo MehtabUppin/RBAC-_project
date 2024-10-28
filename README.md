@@ -31,7 +31,7 @@ Set the following project configurations:
 - Package Name: com.example.projectname
 - Packaging: Jar
 - Java Version: 8 or later
-- 
+  
 ### In the Dependencies section, add the following:
 
 - Spring Web: For building RESTful APIs.
