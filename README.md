@@ -113,7 +113,8 @@ The backend server will start at http://localhost:8080 by default.
 ### Verify the Backend Setup
 1. Check API Endpoints: Use a tool like Postman or curl to test API endpoints, such as /login, /register, or any other endpoints defined in your controllers.
 
-2. Database Verification: Verify that the necessary tables (e.g., for users) have been created in the MySQL database if spring.jpa.hibernate.ddl-auto=update is set in application.properties.
+2. Database Verification: Verify that the necessary tables (e.g., for users) have been created in the MySQL database.
+3. If spring.jpa.hibernate.ddl-auto=update is set in application.properties.
 
 
 
