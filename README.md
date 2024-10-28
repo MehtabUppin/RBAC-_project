@@ -124,6 +124,14 @@ Backend: Set up the backend on Render with the following steps:
 - Configure a new Render web service and specify mvn spring-boot:run as the start command.
 - Add environment variables in Render for your database connection and JWT secret.
 
+## Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the project.
+2. Create a new branch (git checkout -b feature/AmazingFeature).
+3. Make your changes and commit (git commit -m 'Add AmazingFeature').
+4. Push to the branch (git push origin feature/AmazingFeature).
+5. Open a Pull Request.
 
 
 
