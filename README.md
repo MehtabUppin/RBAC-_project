@@ -18,6 +18,7 @@ Step 1: Clone the Repository and Navigate to Backend Directory
 Start by cloning the repository to your local machine and navigate to the backend folder.
 ```
 git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name/foldername
 ```
 
 
