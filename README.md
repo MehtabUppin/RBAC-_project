@@ -46,6 +46,29 @@ Spring Web: For building RESTful APIs.
 - If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
 - Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
 
+  
+## Frontend Setup (React)
+Navigate to the frontend directory:
+```
+bash
+
+cd ../rbac-frontend
+```
+Install frontend dependencies:
+```
+bash
+npm install
+```
+Run the frontend development server:
+
+```
+bash
+npm start
+ ```
+## Usage
+Starting the Application: With both frontend and backend servers running, open http://localhost:3000 in your browser to access the application.
+Testing Roles: Register a new user and assign roles to test different levels of access.
+
 ## Environment Variables.
   
 ###  Configure Database in application.properties
