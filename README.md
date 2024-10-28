@@ -13,6 +13,7 @@ This project is a full-stack application that implements role-based authenticati
 - React.js  library.
 - MySQL.
 - Maven.
+## Backend Setup (Spring Boot)
   
 
 
