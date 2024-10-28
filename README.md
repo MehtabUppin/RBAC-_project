@@ -33,6 +33,16 @@ Step 2: Configure the MySQL Database.
   sql
   create database database_name;
   ```
+- Note down the database name, username, and password you use, as you’ll need them for the next step.
+2. Update Database Configuration in application.properties:
+  ```
+  # Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/role_based_auth_system
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
 
 
 
