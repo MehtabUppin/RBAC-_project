@@ -9,10 +9,11 @@ This project is a full-stack application that implements role-based authenticati
 - Responsive Frontend: User-friendly interface built with React.
 ## Installation
 ## Prerequisites
--Java (JDK 17 or hiegher)
--React.js
--MySQL
--Maven
+-Java (JDK 17 or hiegher).
+
+-React.js.
+-MySQL.
+-Maven.
 
 
 
