@@ -25,7 +25,9 @@ This will navigate you to the backend folder.
 Step 2: Configure the MySQL Database.
 1. Create a New Database.
 - Login to mySQL server.
-  ``` mysql -u root -p ```
+  ```
+  mysql -u root -p
+  ```
 
 
 
