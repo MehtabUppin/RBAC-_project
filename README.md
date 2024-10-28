@@ -42,8 +42,8 @@ Spring Web: For building RESTful APIs.
 
   Using Your IDE (e.g., STS IDEA):
 
-If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
-Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
+- If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
+- Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
 Step 3: Configure Database in application.properties
 Create a MySQL Database:
 
