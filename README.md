@@ -22,25 +22,25 @@ Go to Spring Initializr.
 
 Set the following project configurations:
 
-Project: Maven Project
-Language: Java
-Spring Boot: Select the latest stable version
-Group: com.example (or your preferred group name)
-Artifact: role-based-auth-system
-Name: RoleBasedAuthSystem
-Package Name: com.example.rolebasedauthsystem
-Packaging: Jar
-Java Version: 8 or later
-In the Dependencies section, add the following:
+- Project: Maven Project
+- Language: Java
+- Spring Boot: Select the latest stable version
+- Group: com.example (or your preferred group name)
+- Artifact: role-based-auth-system
+- Name: RoleBasedAuthSystem
+- Package Name: com.example.rolebasedauthsystem
+- Packaging: Jar
+- Java Version: 8 or later
+- In the Dependencies section, add the following:
 
 Spring Web: For building RESTful APIs.
-Spring Data JPA: For database interactions using JPA.
-MySQL Driver: For connecting to a MySQL database.
-Spring Security: For authentication and authorization.
-Spring Boot DevTools (optional): For hot reloading in development.
-Click Generate to download the project as a .zip file. Extract it, and open the project in your preferred IDE.
+- Spring Data JPA: For database interactions using JPA.
+- MySQL Driver: For connecting to a MySQL database.
+- Spring Security: For authentication and authorization.
+- Spring Boot DevTools (optional): For hot reloading in development.
+- Click Generate to download the project as a .zip file. Extract it, and open the project in your preferred IDE.
 
-Using Your IDE (e.g., STS IDEA):
+  Using Your IDE (e.g., STS IDEA):
 
 If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
 Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
