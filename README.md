@@ -43,6 +43,16 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
+3. Add JWT Secret Key.
+- Add a secret key for JWT (JSON Web Token) authentication to the application.properties file:
+```
+properties
+Copy code
+jwt.secret=your_jwt_secret_key
+
+```
+
+
 
 
 
