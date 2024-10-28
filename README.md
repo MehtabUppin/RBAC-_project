@@ -20,6 +20,12 @@ Start by cloning the repository to your local machine and navigate to the backen
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name/foldername
 ```
+This will navigate you to the backend folder.
+
+Step 2: Configure the MySQL Database.
+1. Create a New Database.
+- Login to mySQL server.
+  ``` mysql -u root -p ```
 
 
 
