@@ -82,7 +82,7 @@ In application.properties, add a secret key for JSON Web Token (JWT) authenticat
 
 ```
 properties
-Copy code
+
 jwt.secret=your_jwt_secret_key
  ```
 Replace your_jwt_secret_key with a strong, unique secret.
