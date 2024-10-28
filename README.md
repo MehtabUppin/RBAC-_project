@@ -7,3 +7,8 @@ This project is a full-stack application that implements role-based authenticati
 - JWT Authentication: Secures the backend API with JSON Web Tokens.
 - API Endpoints: Provides various endpoints to manage users, roles, and permissions.
 - Responsive Frontend: User-friendly interface built with React.
+### Installation
+## Prerequisites
+-Java (JDK 17 or hiegher)
+
+
