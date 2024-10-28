@@ -15,7 +15,7 @@ This project is a full-stack application that implements role-based authenticati
 - Maven: Maven is used to manage dependencies. Download and install it from Maven’s official website.
 ## Backend Setup (Spring Boot)
 
-# Step 1: Create a New Spring Boot Project
+### Step 1: Create a New Spring Boot Project
 Using Spring Initializr:
 
 Go to Spring Initializr.
@@ -45,7 +45,7 @@ Spring Web: For building RESTful APIs.
 - If you’re using an IDE like STS IDEA, you can create a new Spring Boot project directly within the IDE.
 - Select File > New > Project, choose Spring Initializr, and follow similar steps as above to add dependencies and configure the project.
   
-# Step 2: Configure Database in application.properties
+### Step 2: Configure Database in application.properties
 Create a MySQL Database:
 
 Log into your MySQL server:
@@ -75,7 +75,7 @@ spring.jpa.show-sql=true
 ```
 Replace your_username and your_password with your actual MySQL username and password.
 
-Step 4: Add JWT Secret Key (for Authentication)
+### Step 3: Add JWT Secret Key (for Authentication)
 In application.properties, add a secret key for JSON Web Token (JWT) authentication:
 
 ```
@@ -85,7 +85,7 @@ jwt.secret=your_jwt_secret_key
  ```
 Replace your_jwt_secret_key with a strong, unique secret.
 
-Step 5: Build and Run the Application
+### Step 4: Build and Run the Application
 To build and run the backend application:
 
 Build the Project:
@@ -106,7 +106,7 @@ mvn spring-boot:run
 ```
 The backend server will start at http://localhost:8080 by default.
 
-Step 6: Verify the Backend Setup
+### Step 5: Verify the Backend Setup
 Check API Endpoints: Use a tool like Postman or curl to test API endpoints, such as /login, /register, or any other endpoints defined in your controllers.
 
 Database Verification: Verify that the necessary tables (e.g., for users) have been created in the MySQL database if spring.jpa.hibernate.ddl-auto=update is set in application.properties.
