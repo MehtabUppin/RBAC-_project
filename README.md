@@ -28,6 +28,11 @@ Step 2: Configure the MySQL Database.
   ```
   mysql -u root -p
   ```
+- Create new database.
+  ```
+  sql
+  create database database_name;
+  ```
 
 
 
