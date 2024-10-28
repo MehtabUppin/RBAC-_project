@@ -13,6 +13,7 @@ This project is a full-stack application that implements role-based authenticati
 - IDE (Optional): Use an IDE like Spring tool suit or Eclipse to simplify development and run your Spring Boot project.
 - MySQL.
 - Maven: Maven is used to manage dependencies. Download and install it from Maven’s official website.
+- React js Library
 ## Backend Setup (Spring Boot)
 
 ###  Create a New Spring Boot Project
