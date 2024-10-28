@@ -13,7 +13,7 @@ This project is a full-stack application that implements role-based authenticati
 - IDE (Optional): Use an IDE like Spring tool suit or Eclipse to simplify development and run your Spring Boot project.
 - MySQL.
 - Maven: Maven is used to manage dependencies. Download and install it from Maven’s official website.
-- React js Library
+
 ## Backend Setup (Spring Boot)
 
 ###  Create a New Spring Boot Project
@@ -129,9 +129,12 @@ Contributions are welcome! To contribute:
 
 1. Fork the project.
 2. Create a new branch (git checkout -b feature/AmazingFeature).
-3. Make your changes and commit (git commit -m 'Add AmazingFeature').
-4. Push to the branch (git push origin feature/AmazingFeature).
+3. Make your changes and commit.
+4. Push to the branch.
 5. Open a Pull Request.
+
+## License
+This project is licensed under the MIT License.
 
 
 
